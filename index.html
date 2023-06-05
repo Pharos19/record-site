@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Entertainment DJ Service</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <section class="flex">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"></a>
+
+    <img src="images/reinameonlyinverted.PNG" alt="reilogo" style="width:160px;height:45px;">
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Booking</a>
+        <a href="#packages">Services</a>
+        <!-- <a href="#services">Services</a> -->
+        <a href="#gallery">Our DJs</a>
+        <a href="#review">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search Here">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>Forgot Password? <a href="#">Click Here</a></p>
+        <p>Don't have an account? <a href="#">Register Now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Decades of Experience</h3>
+            <p>Unparalleled Talent</p>
+            <a href="#" class="btn">Get a Quote </a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 style="color: #5fc070;font-size:6rem;" class="heading">
+        <span>Booking</span>
+     
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Name</h3>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="inputBox">
+                <h3>Phone Number</h3>
+                <input type="text" placeholder="1(800)123-4567">
+            </div>
+            <div class="inputBox">
+                <h3>Email</h3>
+                <input type="text" placeholder="Example@mail.com">
+            </div>
+            <div class="inputBox">
+                <h3>Location</h3>
+                <input type="text" placeholder="Name of Venue">
+            </div>
+            <div class="inputBox">
+                <h3>Estimated Guest Count</h3>
+                <input type="number" placeholder="Number of Guests">
+            </div>
+            <div class="inputBox">
+                <h3>Event Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Tell us about your event</h3>
+                <input type="text" placeholder="What type of event are you hosting?">
+            </div>
+            <div class="inputBox">
+                <h3>How did you hear about us?</h3>
+                <input type="text" placeholder="Not required but appreciated">
+            </div>
+            <input type="submit" class="btn" value="Book Now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 style="color:#5fc070;font-size: 6rem;" class="heading">
+        <span>Services</span>
+    </h1>
+
+    <h1 class="heading" style="color:black;font-size: 3rem;">
+        <span>Standard Items - The Essentials</span>
+
+        </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> </i> Ceremony Music & Sound </h3>
+                <p>DJ to provide mic for officiant, readers, musicians as necessary; will run sound and start music thirty minutes prior to ceremony start time, as your guests are being seated. After ceremony, DJ transitions to cocktail music and is available for announcements, etc.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/cocktailhour.jpg" alt="">
+
+            <div class="content">
+                <h3> Cocktail Music </h3>
+                <p>Music for you and your guests to enjoy before your dinner begins. DJ will be available to make any necessary announcements during this time.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/dinnermusic.webp" alt="">
+            <div class="content">
+                <h3> Dinner Music </h3>
+                <p>You and your guests will be tapping their toes and moving in their seats because your DJ knows how to build the energy in the room all the way to the dance floor! DJ will facilitate introductions, speeches, and any other special happenings that you decide upon ahead of time, then seamlessly shift into dance mode to keep the party going all night long.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpeg" alt="">
+            <div class="content">
+                <h3> Classic Package - Four Hours of Dancing </h3>
+                <p>When the dance portion of your party begins, Record Entertainment leads the way - providing ALL THE MUSIC and ALL THE FUN! Professionally trained DJ kicks off your grand march, transitions into specialty dances, and reads the room to keep you and your guests on the dance floor. Everyone will be talking about the fun they had at your wedding for years to come!
+                
+                Pre-wedding consultation, travel, standard light show, and setup included.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+        
+        <section class="packages" id="packages">
+
+        <h1 style="font-size:3rem;" class="heading">
+            <span>Auxiliary Items - Spice Up Your Party!</span>
+
+            </h1>
+        
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> Photo Booth </h3>
+                <p>3 hours of our photo booth complete with props, unlimited photos for your guests, an attendant to operate the booth, and a book of all of the photos put together for the wedding couple. 
+                Travel & setup included.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> Uplights (4) </h3>
+                <p>Colorful accent lighting to highlight areas at your reception. Color(s), placement, and number of lights can be determined closer to the wedding.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-7.jpg" alt="">
+            <div class="content">
+                <h3> Monogram Light </h3>
+                <p>A beautiful, custom designed monogram with your names, initials, and date; projected where you choose - above your head table, your dance floor, you name it!</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-8.jpg" alt="">
+            <div class="content">
+                <h3> MultiMedia Memories </h3>
+                <p>Video creation of 3 vignettes of your photos:
+                    25 + 25 photos of each partner individually, and 25 photos of the couple together - edited to music selections of your choice and displayed on our projector and screen at your reception.</p>
+                <!-- <a href="#" class="btn">Book Now</a> -->
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 style="font-size:3rem;" class="heading">
+        <span>Additional Services</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+
+            <h3 style="color:#5fc070";>Karaoke</h3>
+            <p style="font-weight:bold;">Unleash your inner superstar and rock the night away with our electrifying DJ services, offering to turn any event into an unforgettable karaoke experience!</p>
+        </div>
+        <div class="box">
+            <h3 style="color:#5fc070">Club DJ</h3>
+            <p style="font-weight:bold;">Take your club experience to new heights with our dynamic DJ services, boasting a proven track record of success and seamless transitions. Whether its for special events or a weekend night of non-stop dancing, trust us to elevate your Club DJ needs.</p>
+        </div>
+        <div class="box">
+            <h3 style="color:#5fc070;">Grad Party DJ Services</h3>
+            <p style="font-weight:bold;">Age appropriate DJ and music suitable for your party; playing radio-edited music without offensive lyrics. Interactive DJ that knows what to play and when to play it to build energy at your event = All The Music, All The Fun!</p>
+        </div>
+        <div class="box">
+            <h3 style="color:#5fc070;">School Dances</h3>
+            <p style="font-weight:bold;">Experience age-appropriate, professionally curated DJ services tailored for students and administrators, featuring radio-edited music free from offensive lyrics. Our interactive DJs possess expert knowledge of music selection and timing, effortlessly building energy on the dancefloor while adding games, interaction, etc = All The Music, All The Fun! Lesser hours needed will bring down the price.</p>
+        </div>
+        <div class="box">
+            <h3 style="color:#5fc070;">Super DJ Lighting</h3>
+            <p style="font-weight:bold;">Indulge in an exhilarating visual spectacle with our overhead light truss, brimming with an array of pulsating lights that ignite the dance floor with excitement! Our expert team seamlessly integrates the truss into our existing dynamic light show kit, meticulously designed to elevate your event and create an immersive party atmosphere that will leave your guests mesmerized.</p>
+        </div>
+        <div class="box">
+            <h3 style="color:#5fc070;">Additional Hour(s)</h3>
+            <p style="font-weight:bold;">Experience non-stop dancing and uninterrupted entertainment as we cater to your guests' rhythm with options to extend your booking times, ensuring your party's timeline perfectly aligns with an unforgettable night of celebration.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 style="color: #5fc070;font-size:6rem;" class="heading">
+        <span>Our DJs</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Kevin.jpg" alt="">
+            <div class="content">
+                <h3>Kevin Flood</h3>
+                <p>Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p>
+                <!-- <a href="#" class="btn">See More</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Josh_Guy.jpg" alt="">
+            <div class="content">
+                <h3>Josh Guy</h3>
+                <p>The Versatile Maestro: DJ personality that is great for adapting their style to cater to different musical preferences.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/stock.jpg" alt="">
+            <div class="content">
+                <h3>Paul Hammes</h3>
+                <p>Another Versatile Maestro! This DJ has extensive knowledge of various music and genres and can seamlessly transition between them throughout events.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Ike_Holzmann.jpg" alt="">
+            <div class="content">
+                <h3>Ike Holzmann</h3>
+                <p>The Smooth Operator: This DJ personality is suave, composed, and exudes an air of sophistication with extensive knowledge in the events world.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/stock.jpg" alt="">
+            <div class="content">
+                <h3>Cullen King</h3>
+                <p>The Energetic Entertainer: This DJ personality is all about creating a vibrant and lively atmosphere at weddings and events.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Santana_Klepp.jpg" alt="">
+            <div class="content">
+                <h3>Santana Klepp</h3>
+                <p>The Trendsetter: This DJ personality stays up to date with the latest music trends and knows how to create a modern and fresh atmosphere at any event.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Kerry_Longrie.jpg" alt="">
+            <div class="content">
+                <h3>Kerry Longrie</h3>
+                <p>The Sentimental Specalist: This DJ personality understands the emotional significance of weddings with a knack for playing the perfect songs during key moments.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Alan_Martinez.jpg" alt="">
+            <div class="content">
+                <h3>Alan Martinez</h3>
+                <p>The Energetic Entertainer: They are charismatic, outgoing, and excel at engaging with the crowd. They mix high energy tracks and use their microphone skills to pump up guests.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/stock.jpg" alt="">
+            <div class="content">
+                <h3>Jimmy Miller</h3>
+                <p>The Fun and Quirky DJ: This personality brings a sense of fun and playfulness to events. They are known for their unique style and creative mix.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Andy_Mueller.jpg" alt="">
+            <div class="content">
+                <h3>Andy Mueller</h3>
+                <p>Another Fun and Quirky DJ: Years of experience with a knack for surprising the crowd and creating a memorable and entertaining experience.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Tom_Otte.jpg" alt="">
+            <div class="content">
+                <h3>Tom Otte</h3>
+                <p>The Crowd-Pleaser: This personality thrives on interaction with the crowd. They actively engage with the guests, taking requests, and encouraging everyone to participate in fun activities.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Johnny_Ransom.jpg" alt="">
+            <div class="content">
+                <h3>Johnny Ransom</h3>
+                <p>A Smooth Operator: Their music selection is smooth and seamless, creating a seamless flow between songs and keeping the guests entertained with their polished style.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Alex_Tryon.jpg" alt="">
+            <div class="content">
+                <h3>Alex Tryon</h3>
+                <p>A Trendsetter: This DJ is always on the lookout for new tracks, remixes, and mashups, ensuring their sets are cutting-edge and appealing to the younger crowd.</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/stock.jpg" alt="">
+            <div class="content">
+                <h3>More Dj's Coming Soon!</h3>
+                <p>All our DJ's are trained for over 6 months before their first solo gig and all have backgrounds in the music industry whether its being part of radio, theatre, or in a band!</p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+        <div style="box-shadow: 0 0 0 0;" class="box">
+            <div style="background:none;" class="content">
+                <h3></h3>
+                <p></p>
+                <!-- <a href="#" class="btn">see more</a> -->
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 style="color: #5fc070;font-size:6rem;" class="heading">
+        <span>Reviews</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/Jared R.webp" alt="">
+                <h3>Jared R.</h3>
+                <p style="font-weight:bolder;">All around happy with our DJ!</p>
+                <p>We had a really good experience with our DJ, Kerry! He was great to work with and created a fun enviornment for us and our guests! Everyon seemed to have a ton of fun and people were dancing all night. Kerry was very accommodating to time changes and requests we had. Our timeline for the night got pushed back because the food took forever to come out and he was super easy to coordinate getting things adjusted. Thanks so much for helping us make our night so special!
+                    Sent on 09/29/2020</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Taylor.webp" alt="">
+                <h3>Taylor T.</h3>
+                <p style="font-weight:bolder;">Dance Floor was Always Full!!</p>
+                <p>Alex did such a great job making our wedding day special! He was very professional and easy to work with. He was very flexible and was able to provide ceremony and reception music. He was a big help for our grand entrance and kept the dance floor full the entire night! It was such a fun time and would highly recommend him!
+                    Sent on 07/12/2021</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Krista.webp" alt="">
+                <h3>Krista L.</h3>
+                <p style="font-weight:bolder;">Awesome Music!</p>
+                <p>We really enjoyed having Record Entertainment as our dj for our wedding! Our DJ was able to keep the party going and make sure everyone had a great time! Made our night unforgettable!
+                    Sent on 07/01/2021</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Alexandria.webp" alt="">
+                <h3>Alexandria J.</h3>
+                <p style="font-weight:bolder;">Get ready to Party ALL NIGHT LONG!!!</p>
+                <p>We had Mike with Record Entertainment as our DJ for our wedding. He was amazing to work with, super responsive to last minuet requests and played a wide variety of music that had people on the dance floor till the venue closed. He's also the perfect hype man! We are still getting compliments weeks later on how well he did. Record Entertainment & Photobooth Service is an awesome company to work with and is a great value for both services. 100 out of 10 recommend. Thanks Mike!
+                    Sent on 06/22/2021</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 style="color: #5fc070;font-size: 6rem;" class="heading">
+        <span>Contact</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/rei full.PNG" alt="">
+        </div>
+
+        <form action="mailto:pharos199@gmail.com" method="get" enctype="text/plain">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/2015.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2016.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2017.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2018.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2019.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2020.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2021.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/2022.png" alt=""></div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<footer class="footer">
+
+    <section class="box-container">
+
+        <div class="box">
+            <h3>Our Details</h3>
+            <a href=" http://maps.google.com/?q=258 S Main St, Fond du Lac WI, 54935" target="_blank">258 S Main St</a>
+            <a href=" http://maps.google.com/?q=258 S Main St, Fond du Lac WI, 54935" target="_blank" style="line-height: 15px;  
+            margin: -15px 0;">Fond du Lac, WI 54935</a>
+            <a href="tel:+9209486887" style="line-height: 30px;margin: 15px 0;">(920) 948-6887</a>
+            <a href="mailto: kevin@recordentertainment.com" style="line-height: 50px;margin: -33px 0;">kevin@recordentertainment.com</a>
+        </div>
+        <div class="box">
+            <h3>Service Areas</h3>
+            <a href="#book">Fond du Lac</a>
+            <a href="#book">Fox Valley</a>
+            <a href="#book">Green Bay</a>
+            <a href="#book">Milwaukee</a>
+            <a href="#book">Sheboygan</a>
+            <a href="#book">Wisconsin Dells</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Booking</a>
+            <a href="#">Services</a>
+            <a href="#">Our DJs</a>
+            <a href="#">Reviews</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/recordentertainment" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/recordentertainment/?fbclid=IwAR3po2SgHG9TS8w2afeNWDrnHj5GSuOPejyOamqa-wi0zaD-IsXF6HPA-jE" target="_blank">Instagram</a>
+            <a href="https://www.theknot.com/marketplace/record-entertainment-dj-and-photobooth-service-fond-du-lac-wi-592648" target="_blank">The Knot</a>
+            <a href="https://www.weddingwire.com/biz/record-entertainment-disc-jockey-service-fond-du-lac/afb581ec2c349eb0.html" target="_blank">WeddingWire</a>
+            <a href="https://www.honeybook.com/profile/kevin-flood/record-entertainment-inc-fond-du-lac-wi" target="_blank">HoneyBook</a>
+        </div>
+
+    </section>
+
+    <h1 class="credit"> Copyright © 2023 Record Entertainment</span> | All Rights Reserved. </h1>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
