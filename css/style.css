@@ -104,13 +104,13 @@ header .navbar a:hover{
 
 header .icons i{
   font-size: 2.5rem;
-  color:#fff;
+  color: none;
   cursor: pointer;
   margin-right: 2rem;
 }
 
 header .icons i:hover{
-  color:var(--orange);
+  color:none;
 }
 
 header .search-bar-container{
