@@ -33,6 +33,17 @@ formClose.addEventListener('click', () =>{
     loginForm.classList.remove('active');
 });
 
+document.addEventListener("DOMContentLoaded", function(){
+  document.body.addEventListener("touchstart", playVideo);
+  function playVideo() {
+      const video = document.getElementById('myVideo');
+      if(video.playing) {
+      } else {
+          video.play();
+      }
+  }
+});
+
 videoBtn.forEach(btn =>{
     btn.addEventListener('click', ()=>{
         document.querySelector('.controls .active').classList.remove('active');
