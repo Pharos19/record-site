@@ -37,7 +37,7 @@ section{
 }
 
 .heading span{
-  /* font-size: 6rem; */
+  font-size: 6rem;
   /* font-style: italic; */
   /* background:rgba(255, 165, 0,.2); */
   /* color:var(--orange); */
@@ -104,13 +104,13 @@ header .navbar a:hover{
 
 header .icons i{
   font-size: 2.5rem;
-  color: none;
+  color: white;
   cursor: pointer;
   margin-right: 2rem;
 }
 
 header .icons i:hover{
-  color:none;
+  color:#5fc070;
 }
 
 header .search-bar-container{
