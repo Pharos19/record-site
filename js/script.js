@@ -6,6 +6,8 @@ let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
+// const progressCircle = document.querySelector(".autoplay-progress svg");
+// const progressContent = document.querySelector(".autoplay-progress span");
 
 window.onscroll = () =>{
     searchBtn.classList.remove('fa-times');
@@ -53,7 +55,31 @@ videoBtn.forEach(btn =>{
     });
 });
 
-var swiper = new Swiper(".review-slider", {
+// var swiper = new Swiper(".mySwiper", {
+//   spaceBetween: 30,
+//   centeredSlides: true,
+//   modules: [Navigation, Pagination],
+//   autoplay: {
+//     delay: 2500,
+//     disableOnInteraction: false
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev"
+//   },
+//   on: {
+//     autoplayTimeLeft(s, time, progress) {
+//       progressCircle.style.setProperty("--progress", 1 - progress);
+//       progressContent.textContent = ${Math.ceil(time / 1000)}s;
+//     }
+//   }
+// });
+
+var swiper1 = new Swiper(".review-slider", {
     spaceBetween: 20,
     grabCursor:true,
     loop:true,
@@ -74,7 +100,7 @@ var swiper = new Swiper(".review-slider", {
     },
 });
 
-var swiper = new Swiper(".brand-slider", {
+var swiper2 = new Swiper(".brand-slider", {
     spaceBetween: 20,
     loop:true,
     autoplay: {
