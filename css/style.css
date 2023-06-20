@@ -416,9 +416,9 @@ header .search-bar-container label:hover{
 .packages .box-container .box{
   display: flex;
   flex-wrap: wrap;
-  border-radius: .5rem;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
 }
 
 .packages .box-container .box img{
@@ -479,6 +479,7 @@ header .search-bar-container label:hover{
   padding:3rem 2rem;
   text-align: center;
   border: .1rem solid rgba(0,0,0,.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
 }
 
 .services .box-container .box i{
@@ -515,8 +516,8 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box{
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
-  border:1rem solid #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  border:1px solid #fff;
   border-radius: 50px;
   flex:1 1 200px;
   height: 300px;
@@ -538,7 +539,7 @@ header .search-bar-container label:hover{
   width:100%;
   text-align: center;
   background:rgba(0,0,0,.7);
-  padding:2rem;
+  padding:5px;
   padding-top: 5rem;
   backdrop-filter: blur(15px);
   transform: translateY(100px);
