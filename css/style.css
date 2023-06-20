@@ -504,6 +504,63 @@ header .search-bar-container label:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 
+.modal-btn {
+  background: none;
+  color: #5fc070;
+}
+
+.btn-close {
+  height: 30px;
+}
+
+.modal-backdrop {
+  --bs-backdrop-zindex: 0;
+}
+
+.modal-content {
+  margin-top: 200px;
+  padding: 15px;
+}
+
+.modal-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.modal-description {
+  margin-top: 10px;
+  text-align: start;
+  padding-top: 10px;
+  border-top: rgba(128, 128, 128, 0.411) solid 1px;
+}
+
+.pic-box {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  border-radius: 100px;
+  border: rgba(128, 128, 128, 0.658) solid 1px;;
+}
+
+.modal-body {
+  color: black;
+}
+
 .gallery .box-container{
   position: relative;
   display: flex;
@@ -713,21 +770,6 @@ header .search-bar-container label:hover{
 .footer .credit span{
   color:var(--orange);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 
