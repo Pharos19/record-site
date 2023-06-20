@@ -96,6 +96,7 @@ header .navbar a{
   color:#5fc070;
   font-size: 2rem;
   margin:0 .8rem;
+  text-decoration: none;
 }
 
 header .navbar a:hover{
