@@ -676,6 +676,7 @@ header .search-bar-container label:hover{
   padding:.7rem 0;
   color:#fff;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
 
 .footer .box-container .box p{
@@ -683,6 +684,7 @@ header .search-bar-container label:hover{
   padding:.7rem 0;
   color:#ccc;
   line-height: 2;
+  text-decoration: none;
 }
 
 .footer .box-container .box a{
@@ -690,6 +692,7 @@ header .search-bar-container label:hover{
   font-size: 1.7rem;
   padding:.7rem 0;
   color:#eee;
+  text-decoration: none;
 }
 
 .footer .box-container .box a:hover{
