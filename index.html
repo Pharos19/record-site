@@ -330,6 +330,9 @@
     <h1 style="color:#5fc070;font-size: 6rem; border-radius: .5rem; padding: 2.5rem 0; text-align: center;">
         <span>Our DJs</span>
     </h1>
+    <h1 style="color:black;font-size: 3rem; border-radius: .5rem; padding: 2.5rem 0; text-align: center;">
+        <span>Click our names to get to know us!</span>
+    </h1>
 
     <div class="box-container">
 
@@ -670,9 +673,28 @@
         <div class="box">
             <img src="images/Alex_Tryon.jpg" alt="">
             <div class="content">
-                <h3>Alex Tryon</h3>
-                <p>A Trendsetter: This DJ is always on the lookout for new tracks, remixes, and mashups, ensuring their sets are cutting-edge and appealing to the younger crowd.</p>
-                <!-- <a href="#" class="btn">see more</a> -->
+                <h3>
+                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#alexModal">Alex Tryon</button> 
+                </h3>
+
+                <!-- Modal -->
+                <div class="modal fade" id="alexModal" tabindex="-1" aria-labelledby="alexModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-profile">
+                            <div class="stack">
+                                <div class="pic-box">
+                                    <img class="profile-pic" src="images/Alex_Tryon.jpg" alt="">
+                                </div>
+                                <h1 class="modal-title" id="alexModalLabel">Alex Tryon</h1>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <p class="modal-description text-dark">A Trendsetter: This DJ is always on the lookout for new tracks, remixes, and mashups, ensuring their sets are cutting-edge and appealing to the younger crowd.</p>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="box">

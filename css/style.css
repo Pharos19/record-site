@@ -568,7 +568,7 @@ header .search-bar-container label:hover{
   justify-content: center;
   align-items: center;
   gap:1.5rem;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .gallery .box-container .box{
@@ -598,16 +598,16 @@ header .search-bar-container label:hover{
   background:rgba(0,0,0,.7);
   padding:5px;
   padding-top: 5rem;
-  backdrop-filter: blur(15px);
+  /* backdrop-filter: blur(15px);
   transform: translateY(100px);
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.5s; */
 }
 
 .gallery .box-container .box:hover .content{
   top: 0px;
-  transform: translateY(0px);
-  opacity: 1;
+  /* transform: translateY(0px);
+  opacity: 1; */
 }
 
 .gallery .box-container .box .content h3{
@@ -618,7 +618,7 @@ header .search-bar-container label:hover{
 .gallery .box-container .box .content p{
   font-size: 1.5rem;
   color:#eee;
-  font-weight: 300;
+  /* font-weight: 300; */
   padding:-15rem 0;
   line-height: 1.5;
 }
