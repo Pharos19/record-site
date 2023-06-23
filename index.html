@@ -232,12 +232,12 @@
         
         <section class="packages" id="packages">
 
-        <h1 style="color:black;font-size: 3rem; border-radius: .5rem; padding: 2.5rem 0; text-align: center;">
+        <h1 class="center" style="color:black;font-size: 3rem; border-radius: .5rem; padding: 2.5rem 0; text-align: center; ">
             <span>Auxiliary Items - Spice Up Your Party!</span>
 
             </h1>
         
-        <div class="box">
+        <div class="box" id="bottom">
             <img src="images/p-5.jpg" alt="">
             <div class="content">
                 <h3> Photo Booth </h3>
@@ -247,7 +247,7 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" id="bottom">
             <img src="images/p-6.jpg" alt="">
             <div class="content">
                 <h3> Uplights (4) </h3>
@@ -256,7 +256,7 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" id="bottom">
             <img src="images/p-7.jpg" alt="">
             <div class="content">
                 <h3> Monogram Light </h3>
@@ -265,7 +265,7 @@
             </div>
         </div>
 
-        <div class="box">
+        <div class="box" id="bottom">
             <img src="images/p-8.jpg" alt="">
             <div class="content">
                 <h3> MultiMedia Memories </h3>
@@ -331,48 +331,41 @@
         <span>Our DJs</span>
     </h1>
     <h1 style="color:black;font-size: 3rem; border-radius: .5rem; padding: 2.5rem 0; text-align: center;">
-        <span>Click our names to get to know us!</span>
+        <span>Click on us to learn more!</span>
     </h1>
 
-    <div class="box-container">
+    <div class="box-container" >
 
-        <div class="box">
-            <img src="images/Kevin.jpg" alt="">
-            <div class="content">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#kevinModal">
+            <!-- <div class="button-div">
                 <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#kevinModal">Kevin Flood</button> 
+                    <button class="modal-btn" >Kevin Flood</button> 
                 </h3>
-
+            </div> -->
+            
+            <img id="gallery-img" src="images/Kevin.jpg" alt=""/>
+            
                 <!-- Modal -->
-                <div class="modal fade" id="kevinModal" tabindex="-1" aria-labelledby="kevinModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-profile">
-                            <div class="stack">
-                                <div class="pic-box">
-                                    <img class="profile-pic" src="images/Kevin.jpg" alt="">
-                                </div>
-                                <h1 class="modal-title" id="kevinModalLabel">Kevin Flood</h1>
+            <div class="modal fade" id="kevinModal" tabindex="-1" aria-labelledby="kevinModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-profile">
+                        <div class="stack">
+                            <div class="pic-box">
+                                <img class="profile-pic" src="images/Kevin.jpg" alt="">
                             </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class="modal-title" id="kevinModalLabel">Kevin Flood</h1>
                         </div>
-                        <p class="modal-description text-dark"> Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    </div>
+                    <p class="modal-description text-dark"> Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
-
-                <!-- <p>Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p> -->
-                
+                </div>
             </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#joshModal">
             <img src="images/Josh_Guy.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#joshModal">Josh Guy</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="joshModal" tabindex="-1" aria-labelledby="joshModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -391,18 +384,9 @@
                     </div>
                     </div>
                 </div>
-
-                <!-- <p>Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p> -->
-                
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#paulModal">
             <img src="images/stock.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#paulModal">Paul Hammes</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="paulModal" tabindex="-1" aria-labelledby="paulModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -410,7 +394,7 @@
                         <div class="modal-profile">
                             <div class="stack">
                                 <div class="pic-box">
-                                    <img class="profile-pic" src="images/stock.jpg" alt="">
+                                    <img class="profile-pic" src="images/Paul_Hammes.jpg" alt="">
                                 </div>
                                 <h1 class="modal-title" id="paulModalLabel">Paul Hammes</h1>
                             </div>
@@ -421,18 +405,9 @@
                     </div>
                     </div>
                 </div>
-
-                <!-- <p>Owner/President who is known as the Professional Perfectionist: This DJ personality is highly organized, detail-oriented, and focused on providing a flawless experience.</p> -->
-                
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#ikeModal">
             <img src="images/Ike_Holzmann.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#ikeModal">Ike Holzmann</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="ikeModal" tabindex="-1" aria-labelledby="ikeModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -451,16 +426,9 @@
                     </div>
                     </div>
                 </div>
-                
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#cullenModal">
             <img src="images/stock.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#cullenModal">Cullen King</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="cullenModal" tabindex="-1" aria-labelledby="cullenModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -479,15 +447,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#santanaModal">
             <img src="images/Santana_Klepp.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#santanaModal">Santana Klepp</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="santanaModal" tabindex="-1" aria-labelledby="santanaModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -506,15 +468,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#kerryModal">
             <img src="images/Kerry_Longrie.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#kerryModal">Kerry Longrie</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="kerryModal" tabindex="-1" aria-labelledby="kerryModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -533,15 +489,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#alanModal">
             <img src="images/Alan_Martinez.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#alanModal">Alan Martinez</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="alanModal" tabindex="-1" aria-labelledby="alanModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -560,15 +510,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#jimmyModal">
             <img src="images/stock.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#jimmyModal">Jimmy Miller</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="jimmyModal" tabindex="-1" aria-labelledby="jimmyModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -587,16 +531,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#andyModal">
             <img src="images/Andy_Mueller.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#andyModal">Andy Mueller</button> 
-                </h3>
-
-                <!-- Modal -->
                 <div class="modal fade" id="andyModal" tabindex="-1" aria-labelledby="andyModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                     <div class="modal-content">
@@ -614,15 +551,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#tomModal">
             <img src="images/Tom_Otte.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#tomModal">Tom Otte</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="tomModal" tabindex="-1" aria-labelledby="tomModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -641,15 +572,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#johnnyModal">
             <img src="images/Johnny_Ransom.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#johnnyModal">Johnny Ransom</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="johnnyModal" tabindex="-1" aria-labelledby="johnnyModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -668,15 +593,9 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" >
             <img src="images/Alex_Tryon.jpg" alt="">
-            <div class="content">
-                <h3>
-                    <button class="modal-btn" data-bs-toggle="modal" data-bs-target="#alexModal">Alex Tryon</button> 
-                </h3>
-
                 <!-- Modal -->
                 <div class="modal fade" id="alexModal" tabindex="-1" aria-labelledby="alexModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -695,15 +614,30 @@
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="box">
+        <div class="box" id="gallery-box" data-bs-toggle="modal" data-bs-target="#djModal">
             <img src="images/djs.png" alt="">
-            <div class="content">
-                <h3>More DJs Coming Soon!</h3>
-                <p style="color:#5fc070">All of our DJs undergo extensive training with numerous veteran performers to ensure they'll deliver only the very best when it's time to go solo!</p>
-                
-            </div>
+                <!-- Modal -->
+                <div class="modal fade" id="djModal" tabindex="-1" aria-labelledby="djModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-profile">
+                            <div class="stack">
+                                <div class="pic-box">
+                                    <img class="profile-pic" src="images/djs.png" alt="">
+                                </div>
+                                <h1 class="modal-title" id="djModalLabel">More DJs Coming Soon!</h1>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <p class="modal-description text-dark">All of our DJs undergo extensive training with numerous veteran performers to ensure they'll deliver only the very best when it's time to go solo!</p>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- <h3></h3>
+                <p style="color:#5fc070"></p> -->
         </div>
         <!-- <div style="box-shadow: 0 0 0 0;" class="box">
             <div style="background:none;" class="content">
